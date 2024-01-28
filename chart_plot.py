@@ -79,7 +79,7 @@ sa_lines2, sa_labels2 = secondary_axis.get_legend_handles_labels()
 legend = secondary_axis.legend(ma_lines + sa_lines2, ma_labels + sa_labels2, loc='upper right')
 
 # Resize the 4th legend marker/circle for scatter into smaller size
-legend.legendHandles[3]._sizes = [50]
+legend.legend_handles[3]._sizes = [50]
 pyplot.grid(True)
 pyplot.show()
 # endregion
